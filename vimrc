@@ -34,6 +34,12 @@ noremap <Leader>E :qa!<CR>  " Quit all winodws
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
+" easier moving between splits
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
+
 " map sort function to a key
 vnoremap <Leader>s :sort<CR>
 

@@ -105,5 +105,5 @@ if [ -f "${HOME}/.bash_resources/git-prompt.sh" ]; then
     # fast HDD or only small git repos
 	#GIT_PS1_SHOWDIRTYSTATE=true
 	#GIT_PS1_SHOWUNTRACKEDFILES=true
-	PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]$(__git_ps1 " (%s)") \n\$ '
+	PS1='\[\e]0;\w\a\]\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]$(__git_ps1 " (%s)") \n\$ '
 fi
