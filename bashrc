@@ -44,6 +44,7 @@ shopt -s nocaseglob
 # History Options
 #
 # Don't put duplicate lines in the history.
+export BOOSTROOT=/usr/include/boost/
 export HISTCONTROL=$HISTCONTROL${HISTCONTROL+,}ignoredups
 #
 # Ignore some controlling instructions
