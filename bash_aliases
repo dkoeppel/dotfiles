@@ -11,3 +11,5 @@ if type cygstart >/dev/null 2>&1; then
     # 'newterm' zum öffnen eines neuen Terminals im gleichen Arbeitsverzeichnis
     alias newterm='cygstart /bin/mintty'
 fi
+
+alias todo="vim ~/todo/main.txt"

@@ -107,3 +107,9 @@ if [ -f "${HOME}/.bash_resources/git-prompt.sh" ]; then
 	#GIT_PS1_SHOWUNTRACKEDFILES=true
 	PS1='\[\e]0;\w\a\]\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]$(__git_ps1 " (%s)") \n\$ '
 fi
+
+if [ -f "/usr/local/bin/virtualenvwrapper.sh" ]; then
+    export WORKON_HOME=${HOME}/.virtualenvs
+    export PROJECT_HOME=$HOME/projects
+    source /usr/local/bin/virtualenvwrapper.sh
+fi
